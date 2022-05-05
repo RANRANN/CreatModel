@@ -82,7 +82,7 @@ namespace CreatModel
                     .OfCategory(BuiltInCategory.OST_Windows)
                     .OfType<FamilySymbol>()
                     .Where(x => x.Name.Equals("1000 x 1800 мм"))
-                    .Where(x => x.FamilyName.Equals("Фиксированные"))
+                    .Where(x => x.FamilyName.Equals("Стандартные"))
                     .FirstOrDefault();
 
                 LocationCurve hostCurve = wall.Location as LocationCurve;
@@ -106,7 +106,7 @@ namespace CreatModel
                     .OfCategory(BuiltInCategory.OST_Doors)
                     .OfType<FamilySymbol>()
                     .Where(x => x.Name.Equals("1000 x 2100 мм"))
-                    .Where(x => x.FamilyName.Equals("Одиночные-Щитовые"))
+                    .Where(x => x.FamilyName.Equals("Межкомнатные"))
                     .FirstOrDefault();
 
                 LocationCurve hostCurve = wall.Location as LocationCurve;
