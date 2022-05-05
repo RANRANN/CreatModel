@@ -81,7 +81,7 @@ namespace CreatModel
                     .OfClass(typeof(FamilySymbol))
                     .OfCategory(BuiltInCategory.OST_Windows)
                     .OfType<FamilySymbol>()
-                    .Where(x => x.Name.Equals("0915 x 1830 мм"))
+                    .Where(x => x.Name.Equals("1000 x 1800 мм"))
                     .Where(x => x.FamilyName.Equals("Фиксированные"))
                     .FirstOrDefault();
 
@@ -105,7 +105,7 @@ namespace CreatModel
                     .OfClass(typeof(FamilySymbol))
                     .OfCategory(BuiltInCategory.OST_Doors)
                     .OfType<FamilySymbol>()
-                    .Where(x => x.Name.Equals("0915 x 2134 мм"))
+                    .Where(x => x.Name.Equals("1000 x 2100 мм"))
                     .Where(x => x.FamilyName.Equals("Одиночные-Щитовые"))
                     .FirstOrDefault();
 
